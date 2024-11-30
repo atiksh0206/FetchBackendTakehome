@@ -1,4 +1,4 @@
-@FetchBackendTakehome_HostAddress = http://localhost:5067
+@FetchBackendTakehome_HostAddress = http://localhost:8000
 
 GET {{FetchBackendTakehome_HostAddress}}/weatherforecast/
 Accept: application/json
