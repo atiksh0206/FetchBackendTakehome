@@ -1,7 +1,7 @@
 # Fetch Backend Takehome
 This API is a simple points management system written in .NET Core 8. It supports managing points for different payers, 
 spending points based on a First-In-First-Out (FIFO) methodology, and retrieving balances for payers. 
-This document will walk you through everything you need to set up, compile, run, and test the API.
+This document will walk you through everything you need to set up, compile, run, and test the API. The API is deployed at https://fetchbackendtakehome20241130181142.azurewebsites.net/swagger/index.html
 
 ## Features:
 1. Add Points: Add points for a payer with a timestamp.
