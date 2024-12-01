@@ -1,0 +1,20 @@
+1. I chose the .NET stack because it is cross-platform and highly optimized for performance. Dot.NET Core also provides robust support for RESTful API development, 
+built-in dependency injection, simplifying state and service management, and tools like Swagger for easy API documentation and testing. The tools I used were Swashbuckle for Swagger, which 
+generates OpenAPI documentation automatically, enabling seamless API testing and integration. As well as dependency injection, which ensures modularity and testability, 
+allowing services like TransactionManager to be decoupled from the controllers. 
+
+2. The solution has several key advantages. Its simplicity ensures that the code is easy to understand and maintain, especially for a coding exercise. 
+The implementation strictly adheres to the FIFO methodology for spending points, ensuring correct transaction handling. By using dependency injection, the solution is modular, 
+allowing components like TransactionManager to be decoupled from the controller for improved flexibility and maintainability. The integration of Swagger makes the API easy to test, 
+whether through the Swagger UI, Postman, or curl. Moreover, the modular design ensures scalability, allowing for a straightforward transition to a persistent storage system, such as a database, 
+in the future. However, the solution has a few limitations. The use of in-memory storage means that data is lost when the application restarts, which is unsuitable for production use. 
+Additionally, the current implementation lacks authentication, leaving the API open to any user. Input validation could also be more robust to ensure that invalid data is properly handled.
+
+3. One of my favorite projects so far has been MadHousing, a web application designed to simplify the housing search process for students at Madison. The platform displayed all the dormitories at
+the University of Wisconsin-Madison allowing for students to leave reviews and ratings for each dorm. The project presented several challenges. One specific aspect that challenged us during the project
+was scalability. During the Spring and Summer we would have a lot more users as incoming Freshmen were trying to figure out where they would be living. This led to our application slowing down, and we 
+had to work on managing our database better as well as refactoring our application. Another challenge we had was the codebase. Originally the website was developed using EJS, and the codebase was 
+incredibly unorganized and messy as we were all first-time web developers. After we launched the website, we realized it was really difficult to change the website, especially when we had new members
+on the team. We decided to refactor the whole web app and switch to the MERN (MongoDB, Express.js, React.js, and Node.js) stack. This was challenging because we wanted to ensure that we were using proper
+industry practices when writing our code. However, through all these challenges, MadHousing was rewarding because it addressed a genuine problem and positively impacted users. Seeing people benefit 
+from the platform validated the effort invested in solving the technical challenges.
